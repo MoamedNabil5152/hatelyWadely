@@ -1,0 +1,54 @@
+.example-card {
+  width: 350px;
+  height: 250px;
+  margin: 50px auto;
+ border: 1px solid rgb(172, 155, 155);
+}
+
+.example-header-image {
+  background-size: cover;
+}
+.mat-card>.mat-card-actions:last-child {
+  margin-bottom: -8px;
+  padding-bottom: 0;
+  margin-left: 100px;
+  background-color: wheat;
+  width: 85px;
+  font-weight: bold;
+  border-radius: 10px;
+
+}
+#contCard {
+  height: 500px;
+  border: 2px solid #ddd;
+}
+#formCont {
+  border: 2px solid rgb(224, 224, 224);
+  width: 700px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+
+#fGroup {
+  margin: 20px;
+}
+
+#inp {
+  margin: 10px auto;
+}
+
+.col-md-10 {
+  flex: 0 0 auto;
+  width: 83.3333333333%;
+  margin-left: 53px
+}
+#formBtn {
+  margin-top: 10px;
+}
+
+.btn-warning {
+  color: #000;
+  background-color: #ffc107;
+  border-color: #ffc107;
+  margin-top: 10px;
+}

@@ -22,6 +22,16 @@ export class ToolbarComponent implements OnInit {
       icon: "home",
       disabled: false,
     },
+
+    {
+      location: "/products",
+      outletName: "null",
+      name: "ســـوق",
+      icon: "home",
+      disabled: false,
+    },
+
+
     {
       location: "/offers",
       outletName: "null",

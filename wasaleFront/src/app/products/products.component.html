@@ -1,0 +1,87 @@
+<mat-toolbar>
+  <div class="container" id="btnsCont">
+    <div class="row">
+      <div class="col-md-3">
+        <img src="assets/souq.png" id="souqLogo" title="Hatly&wadely souq">
+      </div>
+      <div class="col-md-2">
+        <button mat-button color="info"  (mouseover)="displyDiv = true" (mouseout)="displyDiv = false" [routerLink]="['mobile']">Mobile&Tablets</button>
+      </div>
+      <div class="col-md-2" >
+        <button mat-button color="info" (mouseover)=" displyKitchen= true" (mouseout)="displyKitchen = false"  [routerLink]="['kitchen']">Home&kitchen</button>
+      </div>
+      <div class="col-md-2">
+        <button mat-button color="info"  (mouseover)=" displyTv= true" (mouseout)="displyTv = false"  [routerLink]="['tvs']">Hatly TVs</button>
+      </div>
+    </div>
+    </div>
+</mat-toolbar>
+
+<div class="container" id="mobileInfo" *ngIf="displyDiv">
+  <div class="row">
+    <div class="col-md-4">
+    <h1>Mobiles</h1>
+    <p>prices : 5000 EGP</p>
+    <p>type : Samsung</p>
+    <p>Ram : 2GB : 8GB</p>
+    <p>Color : Black</p>
+  </div>
+  <div class="col-5">
+    <img src="/assets/m1.jpg">
+  </div>
+</div>
+</div>
+
+<div class="container" id="mobileInfo" *ngIf="displyKitchen">
+  <div class="row">
+    <div class="col-md-4">
+    <h1>Kitchens</h1>
+    <p>prices : 2000 EGP</p>
+    <p>type : Alomital</p>
+    <p>Size : Large </p>
+    <p>Color : Pink</p>
+  </div>
+  <div class="col-5">
+    <img src="/assets/k3.jpg">
+  </div>
+</div>
+</div>
+
+<div class="container" id="mobileInfo" *ngIf="displyTv">
+  <div class="row">
+    <div class="col-md-4">
+    <h1>Televsions</h1>
+    <p>prices : 4000 EGP</p>
+    <p>type : Tornado</p>
+    <p>Size : 50 Inch </p>
+    <p>Color : Black</p>
+  </div>
+  <div class="col-5">
+    <img style="height: 300px;" src="/assets/t2.jpg">
+  </div>
+</div>
+</div>
+
+
+<div class="container" style="margin-top:15px;margin-bottom: 20xp;">
+  <div class="row">
+    <div class="col-md-10" style="margin-top: 10px;">
+      <h2 style="text-align: center; background-color: blanchedalmond; border-radius: 10px;">know more about us</h2>
+    </div>
+    <div class="col-md-4">
+      <img class="souq" src="/assets/souqq.jpg" [routerLink]="['/products/tvs']">
+    </div>
+    <div class="col-md-4">
+      <img class="souq1" src="/assets/Souql.png" [routerLink]="['/products/kitchen']">
+    </div>
+    <div class="col-md-4">
+      <iframe style="height: 300px;" [src]='safeURL' frameborder="4" allowfullscreen></iframe>
+    </div>
+    <div class="col-md-12" style="  border-radius: 10px;">
+      <img src="/assets/souqPic.jpg" [routerLink]="['/products/mobile']">
+    </div>
+  </div>
+</div>
+
+
+

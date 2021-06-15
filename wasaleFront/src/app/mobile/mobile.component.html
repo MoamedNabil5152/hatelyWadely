@@ -1,0 +1,24 @@
+
+
+<div class="container" id="formCont" >
+  <div class="row">
+    <div class="col-md-6">
+      <h2 class="head">Welcome Here Our Mobiles : {{listFilter}} </h2>
+    </div>
+    <div class="col-md-6">
+      <label for="name">
+        <input type="text" id="searchInp" class="form-control" name="search" [(ngModel)]="listFilter">
+      </label>
+   </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-4" *ngFor="let product of filteredProducts">
+      <h2 style="margin-left: 70px;">{{product.title}}</h2>
+     <img class="KitchenImg" src="{{product.imgUrl}}">
+     <button id="kichenBtn" [routerLink]="['/products/mobile', product?.id]" class="btn btn-info">{{product?.button}}</button>
+    </div>
+  </div>
+</div>

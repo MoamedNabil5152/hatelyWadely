@@ -1,0 +1,46 @@
+
+.KitchenImg {
+  height: 350px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+#kichenBtn {
+  margin-bottom: 10px;
+  text-align: center;
+  margin-left: 75px;
+}
+.kitchenHead {
+  width: 600px;
+  margin: 30px auto;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.head {
+  line-height: 50px;
+}
+
+#searchInp {
+  border: 2px solid thistle;
+}
+#formCont {
+  margin-top: 15px;border: 1px solid #ddd; margin-bottom: 15px; border-radius: 10px;
+}

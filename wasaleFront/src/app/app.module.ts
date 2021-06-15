@@ -1,3 +1,4 @@
+import { ToastrModule } from 'ngx-toastr';
 import { BrowserModule } from "@angular/platform-browser";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { NgModule } from "@angular/core";
@@ -13,7 +14,7 @@ import { DashboardModule } from "./dashboard/dashboard.module";
 import { UserModule } from "./user/user.module";
 import { GlobalModule } from "./global/global.module";
 import { Dashboard404 } from "./Error404/dashboard.component";
-
+import { SouqModule } from "./souq/souq.module";
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, "./assets/i18n/", ".json");
@@ -38,6 +39,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     DashboardModule,
     UserModule,
     GlobalModule,
+    SouqModule,
+    ToastrModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent],

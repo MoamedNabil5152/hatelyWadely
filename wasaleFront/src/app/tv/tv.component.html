@@ -1,0 +1,11 @@
+<div class="kitchenHead">
+  <h2  class="head">TV Screens</h2>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-4" *ngFor="let product of products">
+     <img class="KitchenImg" src="{{product.imgUrl}}">
+     <button id="kichenBtn" [routerLink]="['/products/tvs', product?.id]" class="btn btn-primary">{{product?.button}}</button>
+    </div>
+  </div>
+</div>

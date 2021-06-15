@@ -1,0 +1,252 @@
+{
+  "TVS": [
+    {
+      "id": 1,
+      "title": "pots",
+      "imgUrl": "/assets/t1.jpg",
+      "info": "Zahran 0330010018 Stainless Steel Stewpot with Stainless Steel",
+      "price": "2,000 EGP",
+      "button" : "Click Here"
+    },
+    {
+      "id": 2,
+      "title": "pans",
+      "imgUrl": "/assets/t2.jpg",
+      "info": "Zahran 0330010018 Stainless Steel Stewpot with Stainless Steel",
+      "price": "2,000 EGP",
+      "button" : "Click Here"
+    },
+    {
+      "id": 3,
+      "title": "glass",
+      "imgUrl": "/assets/t3.jpg",
+      "info": "Zahran 0330010018 Stainless Steel Stewpot with Stainless Steel",
+      "price": "2,000 EGP",
+      "button" : "Click Here"
+    },
+    {
+      "id": 4,
+      "title": "cofee",
+      "imgUrl": "/assets/t4.jpg",
+      "info": "Zahran 0330010018 Stainless Steel Stewpot with Stainless Steel",
+      "price": "2,000 EGP",
+      "button" : "Click Here"
+    },
+    {
+      "id": 5,
+      "title": "food storage",
+      "imgUrl": "/assets/t5.jpg",
+      "info": "Zahran 0330010018 Stainless Steel Stewpot with Stainless Steel",
+      "price": "2,000 EGP",
+      "button" : "Click Here"
+    },
+    {
+      "id": 6,
+      "title": "cooking tools",
+      "imgUrl": "/assets/t6.jpg",
+      "info": "Zahran 0330010018 Stainless Steel Stewpot with Stainless Steel",
+      "price": "2,000 EGP",
+      "button" : "Click Here"
+    },
+    {
+      "id": 7,
+      "title": "pyrex",
+      "imgUrl": "/assets/t7.jpg",
+      "info": "Zahran 0330010018 Stainless Steel Stewpot with Stainless Steel",
+      "price": "2,000 EGP",
+      "button" : "Click Here"
+    },
+    {
+      "id": 8,
+      "title": "home appliances",
+      "imgUrl": "/assets/t8.jpg",
+      "info": "Zahran 0330010018 Stainless Steel Stewpot with Stainless Steel",
+      "price": "2,000 EGP",
+      "button" : "Click Here"
+    },
+    {
+      "id": 9,
+      "title": "bread machine",
+      "imgUrl": "/assets/t9.jpg",
+      "info": "Zahran 0330010018 Stainless Steel Stewpot with Stainless Steel",
+      "price": "2,000 EGP",
+      "button" : "Click Here"
+    }
+  ],
+  "kitchen": [
+    {
+      "id": 1,
+      "title": "TV Accessories",
+      "imgUrl": "/assets/k1.jpg",
+      "info": "Zahran 0330010018 Stainless Steel Stewpot with Stainless Steel",
+      "price": "720,00 EGP",
+      "button" : "Click Here"
+    },
+    {
+      "id": 2,
+      "title": "Home threats",
+      "imgUrl": "/assets/k2.jpg",
+      "info": "Zahran 0330010018 Stainless Steel Stewpot with Stainless Steel",
+      "price": "720,00 EGP",
+      "button" : "Click Here"
+    },
+    {
+      "id": 3,
+      "title": "Smart TV",
+      "imgUrl": "/assets/k3.jpg",
+      "info": "Zahran 0330010018 Stainless Steel Stewpot with Stainless Steel",
+      "price": "720,00 EGP",
+      "button" : "Click Here"
+    },
+    {
+      "id": 4,
+      "title": "Smart TV2",
+      "imgUrl": "/assets/k4.jpg",
+      "info": "Zahran 0330010018 Stainless Steel Stewpot with Stainless Steel",
+      "price": "720,00 EGP",
+      "button" : "Click Here"
+    },
+    {
+      "id": 5,
+      "title": "Non Smart TV",
+      "imgUrl": "/assets/k5.jpg",
+      "info": "Zahran 0330010018 Stainless Steel Stewpot with Stainless Steel",
+      "price": "720,00 EGP",
+      "button" : "Click Here"
+    },
+    {
+      "id": 6,
+      "title": "Lg TV",
+      "imgUrl": "/assets/k6.jpg",
+      "info": "Zahran 0330010018 Stainless Steel Stewpot with Stainless Steel",
+      "price": "720,00 EGP",
+      "button" : "Click Here"
+    },
+    {
+      "id": 7,
+      "title": "Tornado",
+      "imgUrl": "/assets/k7.jpg",
+      "info": "Zahran 0330010018 Stainless Steel Stewpot with Stainless Steel",
+      "price": "720,00 EGP",
+      "button" : "Click Here"
+    },
+    {
+      "id": 8,
+      "title": "Samsung",
+      "imgUrl": "/assets/k8.jpg",
+      "info": "Zahran 0330010018 Stainless Steel Stewpot with Stainless Steel",
+      "price": "720,00 EGP",
+      "button" : "Click Here"
+    },
+    {
+      "id": 9,
+      "title": "Elaraby",
+      "imgUrl": "/assets/k9.jpg",
+      "info": "Zahran 0330010018 Stainless Steel Stewpot with Stainless Steel",
+      "price": "720,00 EGP",
+      "button" : "Click Here"
+    }
+
+  ],
+  "mobile": [
+    {
+      "id": 1,
+      "title": "samsung",
+      "imgUrl": "/assets/m1.jpg",
+      "info": "Zahran 0330010018 Stainless Steel Stewpot with Stainless Steel",
+      "price": "720,00 EGP",
+      "button" : "Click Here"
+    },
+    {
+      "id": 2,
+      "title": "nokia",
+      "imgUrl": "/assets/m2.jpg",
+      "info": "Zahran 0330010018 Stainless Steel Stewpot with Stainless Steel",
+      "price": "720,00 EGP",
+      "button" : "Click Here"
+    },
+    {
+      "id": 3,
+      "title": "apple",
+      "imgUrl": "/assets/m3.jpg",
+      "info": "Zahran 0330010018 Stainless Steel Stewpot with Stainless Steel",
+      "price": "720,00 EGP",
+      "button" : "Click Here"
+    },
+    {
+      "id": 4,
+      "title": "Infinix",
+      "imgUrl": "/assets/m4.jpg",
+      "info": "Zahran 0330010018 Stainless Steel Stewpot with Stainless Steel",
+      "price": "720,00 EGP",
+      "button" : "Click Here"
+    },
+    {
+      "id": 5,
+      "title": "huawui",
+      "imgUrl": "/assets/m5.jpg",
+      "info": "Zahran 0330010018 Stainless Steel Stewpot with Stainless Steel",
+      "price": "720,00 EGP",
+      "button" : "Click Here"
+    },
+    {
+      "id": 6,
+      "title": "shawmi",
+      "imgUrl": "/assets/m6.jpg",
+      "info": "Zahran 0330010018 Stainless Steel Stewpot with Stainless Steel",
+      "price": "720,00 EGP",
+      "button" : "Click Here"
+    },
+    {
+      "id": 7,
+      "title": "realme",
+      "imgUrl": "/assets/m7.jpg",
+      "info": "Zahran 0330010018 Stainless Steel Stewpot with Stainless Steel",
+      "price": "720,00 EGP",
+      "button" : "Click Here"
+    },
+    {
+      "id": 8,
+      "title": "oppo",
+      "imgUrl": "/assets/m8.jpg",
+      "info": "Zahran 0330010018 Stainless Steel Stewpot with Stainless Steel",
+      "price": "720,00 EGP",
+      "button" : "Click Here"
+    },
+    {
+      "id": 9,
+      "title": "soni",
+      "imgUrl": "/assets/m9.jpg",
+      "info": "Zahran 0330010018 Stainless Steel Stewpot with Stainless Steel",
+      "price": "720,00 EGP",
+      "button" : "Click Here"
+    }
+  ],
+  "divData1" : [
+    {
+      "title" : "Mobiles" ,
+      "prices" : "2,000 : 6,000",
+      "Ram" : "3gb : 8gb",
+      "types" : "samsung"
+    }
+  ],
+  "divData2" : [
+    {
+      "title" : "Televisions" ,
+      "prices" : "3,000 : 8,000",
+      "screen" : "22 Inch : 50 Inch",
+      "types" : "Tornado"
+    }
+
+  ],
+  "divData3" : [
+    {
+      "title" : "Kitchens" ,
+      "prices" : "2,000 : 6,000",
+      "size" : "15m : 20m",
+      "types" : "Alomital"
+    }
+  ]
+
+
+}

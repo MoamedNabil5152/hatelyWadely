@@ -1,0 +1,58 @@
+<div class="container" id="contCard">
+  <mat-card class="example-card">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>{{product?.title}}</mat-card-title>
+      <mat-card-subtitle>kitchen</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image [src]="product?.imgUrl">
+    <mat-card-content>
+      <p>
+        {{product?.info}}
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button class="cardBtn" (click)="showMyForm()" mat-button color="primary">Buy Now</button>
+    </mat-card-actions>
+  </mat-card>
+</div>
+
+
+<div class="container" id="formCont" *ngIf="showForm ">
+  <div class="row">
+    <div class="col-md-10">
+      <form class="form-group" id="fGroup" [formGroup]="loginForm" (ngSubmit)="saveForm()">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="inp" formControlName="name">
+        </div>
+        <div *ngIf="isValidInput('name')" class="alert alert-danger">
+          <div *ngIf="loginForm.controls['name'].errors.required">
+            Name is required.
+          </div>
+        </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="inp" formControlName="email">
+          </div>
+          <div *ngIf="isValidInput('email')" class="alert alert-danger">
+            <div *ngIf="loginForm.controls['email'].errors.required">
+              Email is required.
+            </div>
+          </div>
+
+            <div class="form-group">
+              <label for="phone" id="inp">PhoneNumber</label>
+              <input type="phone" class="form-control" formControlName="phone">
+            </div>
+            <div *ngIf="isValidInput('phone')" class="alert alert-danger">
+              <div *ngIf="loginForm.controls['phone'].errors.required">
+                Phone is required.
+              </div>
+            </div>
+              <button class="formBtn" [disabled]="!loginForm.valid" type="submit" class="btn btn-warning" (click)="hideForm()" > Sign
+                In</button>
+      </form>
+    </div>
+  </div>
+</div>

@@ -39,6 +39,12 @@ const routes: Routes = [
     path: "notfound",
     component: Dashboard404,
   },
+  {
+    path: "products",
+    loadChildren: () =>
+    import("./souq/souq.module").then(m => m.SouqModule)
+  },
+
   // {
   //   path: "",
   //   redirectTo: "",

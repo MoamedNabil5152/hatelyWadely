@@ -1,0 +1,42 @@
+#souqLogo {
+  height: 40px;
+}
+title {
+  border: 1px solid#ddd;
+}
+.mat-toolbar-row, .mat-toolbar-single-row {
+  display: flex;
+  box-sizing: border-box;
+  padding: 0 16px;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  white-space: nowrap;
+  height: 50px;
+}
+
+#divCont {
+  height: 300px;
+  width: 60%;
+  background-color: aliceblue;
+}
+.souq , .souq1{
+  height: 300px;
+  width: 280px;
+}
+#mobileInfo {
+  border: 1px solid #ddd;
+  width: 60%;
+  text-align: center;
+  border-radius: 10px;
+}
+.col-md-12 {
+  flex: 0 0 auto;
+  width: 100%;
+  margin-bottom: 26px;
+  margin-top: 15px;
+}
+img, svg {
+  vertical-align: middle;
+  border-radius: 33px;
+}
